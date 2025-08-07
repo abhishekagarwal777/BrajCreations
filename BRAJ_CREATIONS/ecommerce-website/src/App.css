@@ -1,0 +1,48 @@
+/* src/App.css */
+
+.home {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 10px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-icons {
+  display: flex;
+}
+
+.nav-icons a {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.sub-navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.sub-navbar a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.random-image {
+  margin: 20px 0;
+}
+
+.random-image img {
+  width: 100%;
+  max-width: 300px;
+}

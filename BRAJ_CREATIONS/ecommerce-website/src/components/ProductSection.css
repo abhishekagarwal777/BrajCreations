@@ -1,0 +1,68 @@
+/* ProductSection.css */
+.product-section {
+    padding: 20px;
+  }
+  
+  .sort-filter {
+    /* Sort and filter styles */
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-ratings {
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart-button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+/* ProductSection.css */
+/* ... Your existing styles ... */
+
+.sort {
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+    padding: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .active-sort {
+    cursor: pointer;
+    color: #007bff;
+    font-weight: 600;
+    padding: 0 10px;
+    border-bottom: 2px solid #007bff;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+.product-grid{
+    padding: 20px;
+}

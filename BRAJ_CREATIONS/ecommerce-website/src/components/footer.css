@@ -1,0 +1,34 @@
+/* Add this CSS to your stylesheet or CSS module */
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-contact {
+    text-align: left;
+  }
+  
+  .instagram-icon {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.footer{
+    background-color: rgb(243, 233, 219);
+}  
